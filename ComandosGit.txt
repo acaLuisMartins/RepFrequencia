@@ -1,11 +1,12 @@
-Alterações feitas em branch teste
-Luís Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git
+AlteraÃ§Ãµes feitas em branch teste
+LuÃ­s Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git
 
+Estas AlteraÃ§oes foram feitas no git hub
 
 git config --global user.name "Luis Martins"
 git config --global user.email "luis@mail.pt"
 
-É usado depois de instalat o Git, sendo importante:
+Ã‰ usado depois de instalat o Git, sendo importante:
 	- O nome de utilizador
 	- Email
 
@@ -15,14 +16,14 @@ Initialized empty Git repository in F:/frequencia_aca/Comandos Git/.git/
 $ git status
 mostra o status dos docmentos na pasta de git.
  
-Luís Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git (master)
+LuÃ­s Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git (master)
 $ git add "Comandos GitHub.txt"
 
 Adicionar um ficheiro para ser seguido.
 
 Sem ser commitado, o ficheiro adicionado tera o seguinte status
 
-Luís Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git (master)
+LuÃ­s Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git (master)
 $ git status
 On branch master
 
@@ -35,29 +36,29 @@ Changes to be committed:
 
 Para confirmar o add do ficheiro ao Git usa-se o commit como em baixo se mostra.
 
-Luís Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git (master)
+LuÃ­s Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git (master)
 $ git commit -m "Primeiro Commit"
 [master (root-commit) 17a01bf] Primeiro Commit
  1 file changed, 4 insertions(+)
  create mode 100644 Comandos GitHub.txt
 
 
-ATENÇÃO!!!
+ATENÃ‡ÃƒO!!!
 
-O git checkout desfaz todas as alterações produzidas num ficheiro desde o ultimo commit.
+O git checkout desfaz todas as alteraÃ§Ãµes produzidas num ficheiro desde o ultimo commit.
 
-Se fizermos git checkout, teremos inclusivamente que voltar a fazer o Add e o Commit, como se fosse a 1ª vez.
+Se fizermos git checkout, teremos inclusivamente que voltar a fazer o Add e o Commit, como se fosse a 1Âª vez.
 
-Uma vez o ficheiro a ser seguido, cada alteração produzida, sempre que for pedido o status o git informa que foram feitas
-alterações até que seja feito novo add e novo commit.
+Uma vez o ficheiro a ser seguido, cada alteraÃ§Ã£o produzida, sempre que for pedido o status o git informa que foram feitas
+alteraÃ§Ãµes atÃ© que seja feito novo add e novo commit.
 
 Clonar um repositorio existente
-git clone <<endereço de onde se vai clonar>> //<<Significa que é sem aspas
+git clone <<endereÃ§o de onde se vai clonar>> //<<Significa que Ã© sem aspas
 
 
-o Git Log produz toda a informação sobre a ação de um utilizador
+o Git Log produz toda a informaÃ§Ã£o sobre a aÃ§Ã£o de um utilizador
 
-Luís Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git (master)
+LuÃ­s Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git (master)
 $ git log
 commit 87cdf6f63f1cbfa78252721b44d5ea1e0a771612
 Author: Luis Martins <lcbmartins@iol.pt>
@@ -78,21 +79,21 @@ Date:   Tue Dec 13 17:06:24 2016 +0000
     Primeiro Commit
 
 git reset --hard
-retira as alterações da staging area e as alterações nos ficheiros também são eliminadas.
+retira as alteraÃ§Ãµes da staging area e as alteraÃ§Ãµes nos ficheiros tambÃ©m sÃ£o eliminadas.
 
 
 Branches (ramos)
-São apontadores para os commits
+SÃ£o apontadores para os commits
 
 Criar um branch
 
 git branch Luis
 
-Apagar um branch mas verifica se há referencias
+Apagar um branch mas verifica se hÃ¡ referencias
 
 git branch -d Luis
 
-Apagar um branch mas SEM verificar se há referencias
+Apagar um branch mas SEM verificar se hÃ¡ referencias
 
 git branch -D Luis
 
