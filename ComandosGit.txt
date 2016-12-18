@@ -1,6 +1,10 @@
 Luís Martins@DESKTOP-D5TTCNE MINGW64 /f/frequencia_aca/Comandos Git
 
 
+Alterações feitas estando no Branch Master
+
+
+
 git config --global user.name "Luis Martins"
 git config --global user.email "luis@mail.pt"
 
